@@ -1,0 +1,50 @@
+{
+    "iohk-nix": {
+        "branch": "master",
+        "description": "nix scripts shared across projects",
+        "homepage": null,
+        "owner": "input-output-hk",
+        "repo": "iohk-nix",
+        "rev": "40748d276f0e0bcb7f16536439183973aa1ebbc3",
+        "sha256": "0kfjhdqhcy6v46r9m2bjsm3r4icqz2r2ga93bck9qi838mv93zlk",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/iohk-nix/archive/40748d276f0e0bcb7f16536439183973aa1ebbc3.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "naersk": {
+        "branch": "more-fixes",
+        "description": "Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.",
+        "homepage": "",
+        "owner": "input-output-hk",
+        "repo": "naersk",
+        "rev": "a3f5eb1b1d9326c4012260d50cda08ea6be17f67",
+        "sha256": "0kkfdzlvg29x4aic28jckpjqnh58j9fmvq7kh8w7i7746yslqvia",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/naersk/archive/a3f5eb1b1d9326c4012260d50cda08ea6be17f67.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "f73bf8d584148677b01859677a63191c31911eae",
+        "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "rust2",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "input-output-hk",
+        "repo": "nixpkgs",
+        "rev": "3f2c227c9167a89e00940eb391a18e6f298ac366",
+        "sha256": "15gzn0lhsv8qfnqgfhvmm7qwlflkbnsj7ipfpx5rbsgn7mkn8f2f",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/nixpkgs/archive/3f2c227c9167a89e00940eb391a18e6f298ac366.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
