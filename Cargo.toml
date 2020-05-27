@@ -6,8 +6,21 @@ members = [
   "testing/jormungandr-testing-utils",
   "testing/jormungandr-integration-tests",
   "testing/jormungandr-scenario-tests",
+  "chain-deps/cardano-legacy-address",
+  "chain-deps/chain-addr",
+  "chain-deps/chain-core",
+  "chain-deps/chain-crypto",
+  "chain-deps/chain-impl-mockchain",
+  "chain-deps/chain-network",
+  "chain-deps/chain-ser",
+  "chain-deps/chain-storage",
+  "chain-deps/chain-test-utils",
+  "chain-deps/chain-time",
+  "chain-deps/imhamt",
+  "chain-deps/sparse-array",
+  "chain-deps/typed-bytes",
 ]
 
 exclude = [
-  "chain-deps",
 ]
+
